@@ -1,0 +1,13 @@
+Summary for /www/javadecompilers/app/public/data/09.04.16/3895889d8e52eb1202eeeba65956de3f/chip_lampe.jar
+Decompiled with CFR 0_114
+
+
+ibxm.Sample
+----------------------------
+
+resampleNearest(int int int int int int[] int int )
+  Unable to fully structure code
+resampleLinear(int int int int int int[] int int )
+  Unable to fully structure code
+resampleSinc(int int int int int int[] int int )
+  Unable to fully structure code

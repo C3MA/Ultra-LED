@@ -1,0 +1,11 @@
+//convert names to a more handy format (eclipse compatible), by redefining the names Recursivly
+prefixProjectName(rootProject)
+
+def prefixProjectName(project) {
+    //eclipse workaround
+    project.name = project.name.replace('..', "")
+    project.name = project.name.replace('/', "-")
+    project.name = project.name.replace('\\', "-")
+    project.name = project.name.replace(' ', "_")
+    project.children.each { prefixProjectName(it) }
+}

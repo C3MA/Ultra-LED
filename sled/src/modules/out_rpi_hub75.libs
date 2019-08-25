@@ -1,0 +1,1 @@
+-lrt -lm -lpthread -lstdc++ ../rpi-rgb-led-matrix/lib/librgbmatrix.a
